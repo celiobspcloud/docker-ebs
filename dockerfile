@@ -1,5 +1,5 @@
 # Usa a imagem oficial do Nginx (alpine para leveza)
-FROM nginx:alpine
+FROM public.ecr.aws/nginx/nginx:alpine
 
 # Copia arquivos do diretório atual para o diretório de HTML do Nginx
 COPY . /usr/share/nginx/html
